@@ -2,7 +2,7 @@
 tasks:
   - init: |
       pyenv install
-      pyenv exec pip install --upgrade pip
+      pyenv exec pip install --upgrade pip black
 
 vscode:
   extensions:
