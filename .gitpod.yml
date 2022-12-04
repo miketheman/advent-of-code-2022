@@ -1,0 +1,10 @@
+# Reference: https://www.gitpod.io/docs/references/gitpod-yml
+tasks:
+  - init: |
+      pyenv install
+      pyenv exec pip install --upgrade pip
+
+vscode:
+  extensions:
+    - ms-python.python
+    - EditorConfig.EditorConfig
